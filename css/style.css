@@ -1,0 +1,152 @@
+.main{
+    background-color: #fff;
+/*     position: relative; */
+
+}
+
+.footer-demo{
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+}
+.footer-demo nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer-demo nav > ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.footer-demo nav > ul > li:first-child{
+    margin: 0;
+    padding: 0;
+}
+.footer-demo nav > ul a:not(.btn) {
+  color: #c1a630;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer-demo nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #E3E3E3;
+}
+.footer-demo .copyright {
+  color: #777777;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer-demo .heart{
+    color: #c1a630;
+}
+
+.navbar-header{
+    min-width: 120px;
+}
+
+.navbar-default .navbar-nav > li > a:not(.btn) {
+  color: #c1a630;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:not(.btn):hover,
+.navbar-default .navbar-nav > .active > a:not(.btn):focus,
+.navbar-default .navbar-nav > li > a:not(.btn):hover,
+.navbar-default .navbar-nav > li > a:not(.btn):focus {
+  background-color: transparent;
+  border-radius: 3px;
+  color: darkgray;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-nav{
+    color:#c1a630;
+}
+
+#demo-navbar{
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.navbar-brand>img {
+  height: 50px;
+  width: 140px;
+  margin-top: -15px
+}
+
+.header {
+  background-size: cover;
+  min-height: 300px;
+}
+.motto {
+  padding-top: -1%;
+  text-align: right;
+  z-index: 3;
+  font-size: .5em;
+  color: white;
+}
+.motto2 {
+  padding-top: 15%;
+  text-align: center;
+  z-index: 3;
+  font-size: .6em;
+  color: white;
+}
+.banner {
+    background-size: cover;
+    min-height: 300px;
+}
+.section {
+  padding: 100px 0;
+}
+
+.section .btn-simple {
+  padding: 0;
+color: white;
+}
+
+.section .column {
+  padding: 0 75px 0 25px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  margin-top: 15px;
+}
+
+.contact-form .btn {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        background-size: cover;
+        min-height: 800px
+    }
+  .motto {
+  padding-top: 18%;
+  text-align: right;
+  z-index: 3;
+  font-size: .9em;
+    }
+    .banner {
+        background-size: cover;
+        min-height: 450px
+    }
+  .motto2 {
+  padding-top: 10%;
+  text-align: center;
+  z-index: 3;
+  font-size: .9em;
+  color: white;
+    }
+}
