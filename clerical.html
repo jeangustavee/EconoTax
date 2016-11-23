@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title>ECONOTAX SERVICES</title>
+	<title>ECONOTAX AND MULTI SERVICES</title>
+    <meta name="description" content="At Econotax Multi Services we have a strong commitment to helping individuals make the most of their finances."/>
+    <meta name="keywords" content="income tax, accounting, clerical services, immigration services, payroll processing, cpa, bookeeping, gainesville, florida" />
+    <meta name="author" content="Antean Studios" />
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -39,16 +41,16 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="#"><i class="fa fa-home"></i></a>
+                <a href="index.html"><i class="fa fa-home"></i></a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="about.html">About</a>
             </li>
             <li>
-                <a href="#" >Services</a>
+                <a href="expertise.html" >Expertise</a>
             </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
             </li>
             <li>
                 <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i></a>
@@ -61,61 +63,76 @@
       </div><!-- /.container-->
     </nav> 
     <div class="wrapper">
-       <div class="banner" style="background-image: url(img/banner_service_detail.jpg)">
+       <div class="banner" style="background-image: url(img/banner_clerical_service.jpg)">
             <div class="container">
                 <div class="motto2">
-                    <h1>SERVICES</h1>
-                    <h3>At EMS, we are proud of our long history of serving companies and<br> their owners with a broad range of tax services.</h3>
+                    <h1>CLERICAL SERVICES</h1>
+                    <h3>We will be responsible for performing clerical and administrative duties for your comapany.</h3>
                 </div>
             </div>    
         </div> 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+          <div class="wraper">
+             <div class="main">
+                 <div class="section text-center section">
+	<div class="container">
+
+
+
+
+
+
+     
+		<div class="row" style="text-align:left;">
+            <div class="col-sm-4">
+            <h2>Our Expertise</h2>
+                <ul>
+                <li><a href="accounting.html">ACCOUNTING</a></li>
+                    <li><a href="tax-services.html">TAX PREPARATION</a></li>
+                    <li>CLERICAL SERVICES</li>
+                    <li><a href="immigration.html">IMMIGRATION SERVICES</a></li>
+                    <li><a href="payroll.html">PAYROLL PROCESSING</a> </li>
+                </ul>
+            </div>
+			<div class="col-sm-8">	
+              <h2>CLERICAL SERVICES</h2>
+                <p>EMS will be responsible for performing clerical and administrative duties for your comapany. We will assist your executive assistants and secretaries by making it easier for them to operate your comapny. We also provide Clerical Services to individual in need of preparing resume, typing documents, etc.</p>
+		<p>Our Clerical services includes:</p>
+                <ul>
+                
+    <li>Resume Preparation</li>
+    <li>Document Typing</li>
+    <li>Copy Service</li>
+    <li>Notary Public</li>
+
+                </ul>
+			</div>
+		</div>
+  </div>
+                 </div>
+              </div>
+        </div>
+    </div>
         <div class="section section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="text-center">Send us a quick message</h2>
-                            <form class="contact-form">
+                            <form action="php/newMail.php" method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Name</label>
-                                        <input class="form-control" placeholder="Name">
+                                        <input class="form-control" type="text" placeholder="Name" data-validation="required">
                                     </div>
                                     <div class="col-md-6">
                                         <label>Email</label>
-                                        <input class="form-control" placeholder="Email">
+                                        <input class="form-control" placeholder="Email" type="text" data-validation="email">
                                     </div>
                                 </div>
                                 <label>Message</label>
-                                <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+                                <textarea name="body" class="form-control" rows="10" placeholder="Tell us your thoughts and feelings..." data-validation="required"></textarea>
                                 <div class="row">
                                     <div class="col-md-4 col-md-offset-4">
-                                        <button class="btn btn-danger btn-block btn-lg btn-fill">Send Message</button>
+                                        <button type="submit" class="btn btn-danger btn-block btn-lg btn-fill" value="Send">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -128,15 +145,14 @@
         <div class="container">
             <nav class="pull-left">
                 <ul>
-    
                     <li>
-                        <a href="http://www.creative-tim.com">News</a>
+                        <a href="#">News</a>
                     </li>
                     <li>
-                        <a href="http://blog.creative-tim.com">Services</a>
+                        <a href="expertise.html">Expertise</a>
                     </li>
                     <li>
-                        <a href="http://www.creative-tim.com/product/rubik">IRS Information</a>
+                        <a href="http://www.irs.com">IRS Information</a>
                     </li>
                 </ul>
             </nav>

@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title>ECONOTAX SERVICES</title>
+	<title>ECONOTAX AND MULTI SERVICES</title>
+    <meta name="description" content="At Econotax Multi Services we have a strong commitment to helping individuals make the most of their finances."/>
+    <meta name="keywords" content="income tax, accounting, clerical services, immigration services, payroll processing, cpa, bookeeping, gainesville, florida" />
+    <meta name="author" content="Antean Studios" />
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -37,18 +39,18 @@
     
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
+         <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="#"><i class="fa fa-home"></i></a>
+                <a href="index.html"><i class="fa fa-home"></i></a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="about.html" style="text-decoration:line-through;">About</a>
             </li>
             <li>
-                <a href="#" >Services</a>
+                <a href="expertise.html" >Expertise</a>
             </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
             </li>
             <li>
                 <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i></a>
@@ -65,7 +67,7 @@
             <div class="container">
                 <div class="motto2">
                     <h1>ABOUT US</h1>
-                    <h3>At EMS, we are proud of our long history of serving companies and<br> their owners with a broad range of tax services.</h3>
+                    <h3>Econotax and Multi Services is your neighborhood source for fast, economical, friendly tax, accounting and bookkeeping services.</h3>
                 </div>
             </div>    
         </div> 
@@ -77,6 +79,7 @@
 		<div class="row">
             <div class="col-sm-4">
             <h2 style="text-align: left;">We Serve Local Small Business</h2>
+                <h5 style="text-align: left;">Econotax and Multi Services is your neighborhood source for fast, economical, friendly tax, accounting and bookkeeping services. If you own a small business or need individual income tax preparation, EMS is the place for you.</h5>
             </div>
 			<div class="col-sm-8" style="text-align:left;">
                 <h2>OUR EXPERTISE</h2>
@@ -113,22 +116,22 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="text-center">Send us a quick message</h2>
-                            <form class="contact-form">
+                            <form action="php/newMail.php" method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Name</label>
-                                        <input class="form-control" placeholder="Name">
+                                        <input class="form-control" type="text" placeholder="Name" data-validation="required">
                                     </div>
                                     <div class="col-md-6">
                                         <label>Email</label>
-                                        <input class="form-control" placeholder="Email">
+                                        <input class="form-control" placeholder="Email" type="text" data-validation="email">
                                     </div>
                                 </div>
                                 <label>Message</label>
-                                <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+                                <textarea name="body" class="form-control" rows="10" placeholder="Tell us your thoughts and feelings..." data-validation="required"></textarea>
                                 <div class="row">
                                     <div class="col-md-4 col-md-offset-4">
-                                        <button class="btn btn-danger btn-block btn-lg btn-fill">Send Message</button>
+                                        <button type="submit" class="btn btn-danger btn-block btn-lg btn-fill" value="Send">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -143,13 +146,13 @@
                 <ul>
     
                     <li>
-                        <a href="http://www.creative-tim.com">News</a>
+                        <a href="#">News</a>
                     </li>
                     <li>
-                        <a href="http://blog.creative-tim.com">Services</a>
+                        <a href="expertise.html">Expertise</a>
                     </li>
                     <li>
-                        <a href="http://www.creative-tim.com/product/rubik">IRS Information</a>
+                        <a href="http://www.irs.com">IRS Information</a>
                     </li>
                 </ul>
             </nav>

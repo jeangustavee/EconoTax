@@ -86,7 +86,7 @@
 }
 .motto {
   padding-top: -1%;
-  text-align: right;
+  text-align: left;
   z-index: 3;
   font-size: .5em;
   color: white;
@@ -134,7 +134,7 @@ color: white;
     }
   .motto {
   padding-top: 18%;
-  text-align: right;
+  text-align: left;
   z-index: 3;
   font-size: .9em;
     }
@@ -149,4 +149,18 @@ color: white;
   font-size: .9em;
   color: white;
     }
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
